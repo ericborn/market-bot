@@ -24,8 +24,7 @@ from directkeys import ReleaseKey, PressKey, ESC, Y, ONE, TWO, THREE,FOUR,\
 #time.sleep(0.1)
 #print('up')
 #ReleaseKey(ESC)
-
-
+                  
 def process_img(image):
     original_image = image
     # convert to gray
@@ -37,7 +36,11 @@ def process_img(image):
 def main():
     last_time = time.time()
     while True:
-        screen =  np.array(ImageGrab.grab(bbox=(0,40,1600,900)))
+        
+        # bbox represents the bounding box of the games window
+        # starts at 0,30 since there is a title bar for the games window
+        # game is using 1600x900 resolutions
+        screen =  np.array(ImageGrab.grab(bbox=(0,30,1600,900)))
         #print('Frame took {} seconds'.format(time.time()-last_time))
         last_time = time.time()
         new_screen = process_img(screen)
