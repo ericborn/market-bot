@@ -1,15 +1,29 @@
 # market-bot
 
+## Features
+
+### Character
+Move money into a container
+
+### Market
+Buy set items below a specific price
+Observe market for an items price
+Post items for sale
+
+### Hideout
+Retreive a crafted item
+Start a new craft
+
 
 ## Coordinates for screens within the game
 
-## Main page buttons
+### Main page buttons
 Character button 721x595 to 880x620
 Trading button 740x655 to 860x680
 hideout button 740x710 to 860x740
 
 
-## Trading page buttons
+### Trading page buttons
 Dealers button 588x20 to 670x38
 Flea market button 734x20 to 868x38
 
