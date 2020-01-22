@@ -4,6 +4,7 @@
 
 ### Character
 Move money into a container
+Retrieve money from market sales
 
 ### Market
 Buy set items below a specific price
@@ -15,14 +16,26 @@ Retreive a crafted item
 Start a new craft
 
 
-## Coordinates for screens within the game
+# Coordinates for screens within the game
 
 ### Main page buttons
 Character button 721x595 to 880x620
 Trading button 740x655 to 860x680
 hideout button 740x710 to 860x740
 
+## Character
+inventory cell 51x51
+1px padding
 
+1054 - left side first cell
+1527 - left side last cell
+
+10x66 inventory cells 
+top left inventory cell 1055x65 to 1105x115
+13 cells on screen without scrolling
+bottom right cell 1525x695 to 1580x750
+
+## Market
 ### Trading page buttons
 Dealers button 588x20 to 670x38
 Flea market button 734x20 to 868x38
